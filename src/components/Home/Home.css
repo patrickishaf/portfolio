@@ -1,0 +1,401 @@
+.home .hero {
+  display: flex;
+  width: 100%;
+  gap: 3rem;
+  padding-bottom: 4rem;
+  padding-top: 6.2rem;
+}
+
+.home .left {
+  flex-grow: 1;
+  padding-top: 7.4rem;
+}
+
+.home .bio {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.home .bio span {
+  color: var(--accent);
+}
+
+.home .desc {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.5rem;
+  color: var(--text-grey);
+  max-width: 70%;
+  margin-bottom: 2.4rem;
+}
+
+.home .right {
+  width: 45.7rem;
+  height: 38.6rem;
+  position: relative;
+}
+
+.home .right .maze {
+  position: absolute;
+  top: 8.4rem;
+  left: -1.2rem;
+  z-index: 1;
+}
+
+.home .right .hoodie {
+  position: relative;
+  z-index: 2;
+  width: 45.7rem;
+}
+
+.home .right .dots {
+  position: absolute;
+  bottom: 5.6rem;
+  right: 1.6rem;
+  z-index: 3;
+}
+
+.home .right .current-work {
+  border: 1px solid var(--text-grey);
+  padding: .8rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.home .right .rect {
+  height: 1.6rem;
+  width: 1.6rem;
+  border: 1px solid var(--accent);
+  background-color: var(--accent);
+}
+
+.home .right .current-work {
+  margin-left: 1.9rem;
+  margin-right: 3.6rem;
+  position: relative;
+  bottom: .3rem;
+}
+
+.home .right .current-work-text {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--text-grey);
+}
+
+.home .right .current-work-text span {
+  color: var(--text-white);
+}
+
+.home .funny {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 11.2rem;
+}
+
+.home .quote-sect {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.home .quote {
+  border: 1px solid var(--text-grey);
+  padding: 3.2rem;
+  display: flex;
+  position: relative;
+}
+
+.home .quote .quote-wrap {
+  position: absolute;
+  padding: .8rem;
+  background-color: var(--bg-color);
+}
+
+.home .quote-wrap.open {
+  top: -2rem;
+}
+
+.home .quote-wrap.close {
+  bottom: -2rem;
+  right: 1.5rem;
+}
+
+.home .quote-text {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.home .author {
+  border: solid 1px var(--text-grey);
+  border-top: none;
+  padding: 1.6rem;
+}
+
+.home .author-text {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: var(--text-white);
+}
+
+.home .projects {
+  padding-top: 7.4rem;
+}
+
+.home .projects .project-section-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4.8rem;
+}
+
+.home .projects .details {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.home .projects .section-title {
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--text-white);
+}
+
+.home .projects .section-title span {
+  color: var(--accent);
+}
+
+.home .projects-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+
+.home .skills {
+  padding-top: 10.6rem;
+}
+
+.home .skills .skills-section-top {
+  margin-bottom: 4.3rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.home .skills .section-title {
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--text-white);
+}
+
+.home .skills .section-title span {
+  color: var(--accent);
+}
+
+.home .skills .skills-main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.home .skills .skills-left {
+  width: 43%;
+  height: 32rem;
+}
+
+.home .skills .top-shapes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 3.2rem;
+  padding-right: 9.5rem;
+  margin-bottom: 4.9rem;
+}
+
+.home .skills .top-dots {
+  position: relative;
+  top: .7rem;
+  width: 6.3rem;
+  height: 6.3rem;
+}
+
+.home .skills .top-rect {
+  position: relative;
+  bottom: 3.8rem;
+}
+
+.home .skills .bottom-shapes {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 4.7rem;
+  padding-right: 5.9rem;
+}
+
+.home .skills .bottom-maze {
+  position: relative;
+  top: 2.6rem;
+}
+
+.home .skills .bottom-dots {
+  width: 6.3rem;
+  height: 6.3rem;
+  margin-left: 4.9rem;
+  margin-right: 5.7rem;
+}
+
+.home .skills .bottom-rect {
+  position: relative;
+  top: 5rem;
+}
+
+.home .skills .skills-right {
+  width: 57%;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+
+.home .skills .skills-right .col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.home .about {
+  margin-top: 11.2rem;
+  position: relative;
+  padding-bottom: 8rem;
+}
+
+.home .about-top {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.home .about-title {
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--text-white);
+}
+
+.home .about-main {
+  display: flex;
+}
+
+.home .about-left {
+  padding-top: 2.3rem;
+  width: 50%;
+}
+
+.home .about article p {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--text-grey);
+  margin-bottom: 4rem;
+}
+
+.home .about-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 50.7rem;
+}
+
+.home .about-right-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.home .about-right .hoodieman,
+.home .about-right .hoodieman {
+  height: 100%;
+  height: 100%;
+}
+
+.home .about-dots {
+  position: absolute;
+  top: 5.9rem;
+  left: -.4rem;
+}
+
+.home .about-dots-2 {
+  position: absolute;
+  top: 27.9rem;
+  right: 1.6rem;
+}
+
+.home .about-right-line {
+  position: relative;
+  left: 4.8rem;
+}
+
+.home .contacts {
+  padding-top: 11.2rem;
+}
+
+.home .contacts-main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 4.5rem;
+  padding-bottom: 14.5rem;
+}
+
+.home .contacts-txt {
+  width: 50%;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--text-grey);
+}
+
+.home .msg-box {
+  border: 1px solid var(--text-grey);
+  padding: 1.6rem;
+}
+
+.home .msg-box-title {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--text-white);
+  margin-bottom: 1.6rem;
+}
+
+.home .msg-item {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-top: .8rem;
+  cursor: pointer;
+}
+
+.home .msg-item span {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--text-grey);
+}

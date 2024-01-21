@@ -1,0 +1,31 @@
+.skillbox {
+  border: 1px solid var(--text-grey);
+  width: 100%;
+}
+
+.skillbox .type-box {
+  border-bottom: 1px solid var(--text-grey);
+  padding: .8rem;
+}
+
+.skillbox .type {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.skillbox .items {
+  padding: .8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .8rem;
+}
+
+.skillbox .item {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--text-grey);
+}

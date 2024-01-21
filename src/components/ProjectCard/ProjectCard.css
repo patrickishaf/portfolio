@@ -1,0 +1,52 @@
+.project-card {
+  border: 1px solid var(--text-grey);
+  width: 100%
+}
+
+.project-card img {
+  width: 100%;
+}
+
+.project-card .skills {
+  /* border-top: 1px solid var(--text-grey); */
+  border-bottom: 1px solid var(--text-grey);
+  padding: 0 .8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .8rem;
+}
+
+.project-card .skill {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--text-grey);
+  padding: .8rem 0;
+}
+
+.project-card .project-details {
+  padding: 1.6rem;
+}
+
+.project-card .name {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 1.6rem;
+}
+
+.project-card .desc {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--text-grey);
+  margin-bottom: 1.6rem;
+}
+
+.project-card .btns {
+  display: flex;
+  gap: 1.6rem;
+}

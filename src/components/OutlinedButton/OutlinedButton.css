@@ -1,0 +1,26 @@
+.outlined-btn {
+  border: solid 1px var(--accent);
+  background-color: transparent;
+  padding: .8rem 1.6rem;
+  cursor: pointer;
+  transition: all .2s;
+  color: var(--text-white);
+  font-size: 1.6rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
+
+.outlined-btn.grey {
+  border-color: var(--text-grey);
+  color: var(--text-grey);
+}
+
+.outlined-btn:hover {
+  background-color: var(--accent-fill);
+}
+
+.outlined-btn.grey:hover {
+  background-color: var(--grey-fill);
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Source+Sans+3:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  font-family: "Fira Code", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --bg-color: #282C33;
+  --accent: #C778DD;
+  --text-grey: #ABB2BF;
+  --text-white: #FFFFFF;
+  --accent-fill: rgba(199, 120, 221, 0.20);
+  --grey-fill: rgba(171, 178, 191, 0.20);
+
+  background-color: var(--bg-color);
+}
+
+:root[data-theme="alt"] {
+  --accent: #12F7D6;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.accent {
+  color: var(--accent);
+}
