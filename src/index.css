@@ -40,6 +40,12 @@
   margin-bottom: 6.8rem;
 }
 
+@media only screen and (max-width: 49rem) {
+  .page-intro {
+    padding-top: 2rem;
+  }
+}
+
 .page-name {
   font-size: 3.2rem;
   font-style: normal;

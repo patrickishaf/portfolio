@@ -10,6 +10,14 @@
   margin-bottom: 11.2rem;
 }
 
+@media only screen and (max-width: 49rem) {
+  .contactme .contact-main {
+    flex-direction: column;
+    gap: 4rem;
+    margin-bottom: 8rem;
+  }
+}
+
 .contactme .interests {
   font-size: 1.6rem;
   font-weight: 500;
@@ -22,6 +30,13 @@
   align-items: flex-start;
   justify-content: flex-end;
   gap: 1.6rem;
+}
+
+@media only screen and (max-width: 49rem) {
+  .contactme .contact-right {
+    flex-direction: column;
+    gap: 4rem;
+  }
 }
 
 .contactme .support-box {
@@ -89,6 +104,13 @@
   align-items: flex-start;
   gap: 2.2rem;
   margin-bottom: 8.3rem;
+}
+
+@media only screen and (max-width: 49rem) {
+  .contactme .all-media-main {
+    flex-direction: column;
+    margin-bottom: 6rem;
+  }
 }
 
 .contactme .social-tile {

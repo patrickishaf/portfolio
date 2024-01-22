@@ -6,9 +6,23 @@
   padding-top: 6.2rem;
 }
 
+@media only screen and (max-width: 49rem) {
+  .home .hero {
+    flex-direction: column;
+    padding: 3.4rem 0;
+  }
+}
+
 .home .left {
   flex-grow: 1;
   padding-top: 7.4rem;
+}
+
+@media only screen and (max-width: 49rem) {
+  .home .left {
+    padding: 0;
+    width: 100%;
+  }
 }
 
 .home .bio {
@@ -31,10 +45,26 @@
   margin-bottom: 2.4rem;
 }
 
+@media only screen and (max-width: 49rem) {
+  .home .desc {
+    max-width: unset;
+  }
+
+  .home .home-contact-btn {
+    display: none;
+  }
+}
+
 .home .right {
   width: 45.7rem;
   height: 38.6rem;
   position: relative;
+}
+
+@media only screen and (max-width: 49rem) {
+  .home .right {
+    width: 100%;
+  }
 }
 
 .home .right .maze {
@@ -44,10 +74,24 @@
   z-index: 1;
 }
 
+@media only screen and (max-width: 49rem) {
+  .home .right .maze {
+    width: 10rem;
+    height: 10rem;
+    left: 0;
+  }
+}
+
 .home .right .hoodie {
   position: relative;
   z-index: 2;
   width: 45.7rem;
+}
+
+@media only screen and (max-width: 49rem) {
+  .home .right .hoodie {
+    width: 100%;
+  }
 }
 
 .home .right .dots {
@@ -55,6 +99,15 @@
   bottom: 5.6rem;
   right: 1.6rem;
   z-index: 3;
+}
+
+@media only screen and (max-width: 49rem) {
+  .home .right .dots {
+    position: absolute;
+    bottom: 9.3rem;
+    right: 1.6rem;
+    z-index: 3;
+  }
 }
 
 .home .right .current-work {
@@ -181,6 +234,18 @@
   gap: 1.6rem;
 }
 
+@media only screen and (max-width: 49rem) {
+  .home .line {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 49rem) {
+  .home .projects-row {
+    flex-direction: column;
+  }
+}
+
 .home .skills {
   padding-top: 10.6rem;
 }
@@ -214,6 +279,12 @@
 .home .skills .skills-left {
   width: 43%;
   height: 32rem;
+}
+
+@media only screen and (max-width: 49rem) {
+  .home .skills .skills-left {
+    display: none;
+  }
 }
 
 .home .skills .top-shapes {
@@ -269,6 +340,12 @@
   gap: 1.6rem;
 }
 
+@media only screen and (max-width: 49rem) {
+  .home .skills .skills-right {
+    width: 100%;
+  }
+}
+
 .home .skills .skills-right .col {
   display: flex;
   flex-direction: column;
@@ -299,9 +376,21 @@
   display: flex;
 }
 
+@media only screen and (max-width: 49rem) {
+  .home .about-main {
+    flex-direction: column;
+  }
+}
+
 .home .about-left {
   padding-top: 2.3rem;
   width: 50%;
+}
+
+@media only screen and (max-width: 49rem) {
+  .home .about-left {
+    width: 100%;
+  }
 }
 
 .home .about article p {
@@ -318,6 +407,17 @@
   right: 0;
   top: 0;
   height: 50.7rem;
+}
+
+@media only screen and (max-width: 49rem) {
+  .home .about-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50.7rem;
+    z-index: -1;
+    opacity: .2;
+  }
 }
 
 .home .about-right-content {
@@ -353,12 +453,26 @@
   padding-top: 11.2rem;
 }
 
+@media only screen and (max-width: 49rem) {
+  .home .contacts {
+    padding-top: 4.8rem;
+  }
+}
+
 .home .contacts-main {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   padding-top: 4.5rem;
   padding-bottom: 14.5rem;
+}
+
+@media only screen and (max-width: 49rem) {
+  .home .contacts-main {
+    flex-direction: column;
+    gap: 3.2rem;
+    padding-bottom: 8rem;
+  }
 }
 
 .home .contacts-txt {
@@ -370,9 +484,21 @@
   color: var(--text-grey);
 }
 
+@media only screen and (max-width: 49rem) {
+  .home .contacts-txt {
+    width: 100%;
+  }
+}
+
 .home .msg-box {
   border: 1px solid var(--text-grey);
   padding: 1.6rem;
+}
+
+@media only screen and (max-width: 49rem) {
+  .home .msg-box {
+    width: 100%;
+  }
 }
 
 .home .msg-box-title {

@@ -4,12 +4,25 @@ import github from '../../assets/github.svg';
 import linkedin from '../../assets/linkedin.svg';
 import twitter from '../../assets/twitter.svg';
 import dots from '../../assets/dots5x5.svg';
+import closeIcon from '../../assets/close.svg';
+import menuIcon from '../../assets/menu.svg';
 import { NavLink, Outlet } from 'react-router-dom';
 import routenames from '../../navigation/routnames';
 import Rect from '../Rect/Rect';
+import { useState } from 'react';
 
 export default function Root() {
   const getClassName = ({ isActive }) => isActive ? 'selected' : '';
+  const [showMobileOptions, setShowMobileOptions] = useState(false);
+
+  function toggleMenuVisibility() {
+    setShowMobileOptions((value) => !value);
+  }
+
+  function closeMenuOptions() {
+    setShowMobileOptions(false);
+  }
+
   return (
     <div className="root">
       <div className="upper">
@@ -31,7 +44,7 @@ export default function Root() {
           <img src={dots} alt="" className="sidebar-dots2" />
         </section>
         <section className="middle">
-          <header>
+          <header className="header">
             <div className="logo-box">
               <figure className="logo-wrap">
                 <img src={logo} alt="" className="logo" />
@@ -52,6 +65,33 @@ export default function Root() {
                 <NavLink to={routenames.contact} className={getClassName}><span className="hashtag">#</span>contacts</NavLink>
               </li>
             </ul>
+          </header>
+          <header className="mobile-header">
+            <div className="toolbar">
+              <div className="logo-box">
+                <figure className="logo-wrap">
+                  <img src={logo} alt="" className="logo" />
+                </figure>
+                <h6 className="name">Pete</h6>
+              </div>
+              <img src={showMobileOptions ? closeIcon : menuIcon} alt="" className="menu-btn" onClick={toggleMenuVisibility} />
+            </div>
+            <div className={`mobile-toolbar-options ${showMobileOptions ? 'visible' : 'invisible'}`}>
+              <ul className="links">
+                <li className="link" onClick={closeMenuOptions}>
+                  <NavLink to="/" className={getClassName}><span className="hashtag">#</span>home</NavLink>
+                </li>
+                <li className="link" onClick={closeMenuOptions}>
+                  <NavLink to={routenames.projects} className={getClassName}><span className="hashtag">#</span>projects</NavLink>
+                </li>
+                <li className="link" onClick={closeMenuOptions}>
+                  <NavLink to={routenames.about} className={getClassName}><span className="hashtag">#</span>about-me</NavLink>
+                </li>
+                <li className="link" onClick={closeMenuOptions}>
+                  <NavLink to={routenames.contact} className={getClassName}><span className="hashtag">#</span>contacts</NavLink>
+                </li>
+              </ul>
+            </div>
           </header>
           <main className="content">
             <Outlet />

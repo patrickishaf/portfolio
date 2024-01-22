@@ -18,6 +18,16 @@
   position: relative;
 }
 
+@media only screen and (max-width: 49rem) {
+  .root .upper > .left,
+  .root .upper > .right,
+  .root .upper > .left *,
+  .root .upper > .right * {
+    display: none;
+    width: 0;
+  }
+}
+
 .root .upper > .left {
   display: flex;
   justify-content: flex-start;
@@ -77,7 +87,7 @@
   right: -2.3rem;
 }
 
-.root header {
+.root .header {
   width: calc(100% - var(--horizontal-padding) - var(--horizontal-padding));
   display: flex;
   align-items: center;
@@ -90,6 +100,71 @@
   z-index: 3;
   margin-left: var(--horizontal-padding);
   margin-right: var(--horizontal-padding);
+}
+
+.root .mobile-header {
+  display: none;
+}
+
+@media screen and (max-width: 49rem) {
+  .root .header {
+    display: none;
+  }
+
+  .root .mobile-header {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    background-color: var(--bg-color);
+    z-index: 4;
+    border-bottom: solid 1px var(--text-grey);
+  }
+
+  .root .mobile-header .toolbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem 1.6rem .8rem;
+  }
+
+  .root .mobile-toolbar-options {
+    transition: all .2s;
+    width: 100%;
+    height: 0;
+  }
+
+  .root .mobile-toolbar-options.invisible * {
+    display: none;
+  }
+
+  .root .mobile-toolbar-options.visible {
+    height: 100vh;
+    width: 100%;
+    opacity: 1;
+  }
+
+  .root .mobile-toolbar-options.visible ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    padding-left: 1.6rem;
+    padding-top: 5.5rem;
+  }
+
+  .root .mobile-toolbar-options.visible li {
+    margin: 0;
+    margin-bottom: 3.2rem;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: all .2s;
+  }
 }
 
 .root .logo-box {
@@ -140,6 +215,13 @@
   width: calc(100vw - 17.1rem - 17.1rem);
 }
 
+@media only screen and (max-width: 49rem) {
+  .root .middle .content {
+    width: 100vw;
+    padding: 0 1.6rem;
+  }
+}
+
 .root main {
   margin-top: 6.1rem;
 }
@@ -149,15 +231,37 @@
   border-top: 1px solid var(--text-grey);
 }
 
+@media only screen and (max-width: 49rem) {
+  .root footer {
+    padding: 3.2rem 1.6rem;
+  }
+}
+
 .root footer .top {
   display: flex;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 49rem) {
+  .root footer .top {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
 }
 
 .root footer .info {
   display: flex;
   align-items: center;
   gap: 2.4rem;
+}
+
+@media only screen and (max-width: 49rem) {
+  .root footer .info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.2rem;
+    margin-bottom: 3.2rem;
+  }
 }
 
 .root footer .name {
@@ -185,6 +289,12 @@
   line-height: normal;
   color: var(--text-white);
   margin-bottom: 1.2rem;
+}
+
+@media only screen and (max-width: 49rem) {
+  .root footer .media-text {
+    margin-bottom: 3.2rem;
+  }
 }
 
 .root footer .social-icons {

@@ -7,6 +7,13 @@
   padding-bottom: 11.3rem;
 }
 
+@media only screen and (max-width: 49rem) {
+  .aboutme .about-info {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+}
+
 .aboutme article {
   font-size: 1.6rem;
   font-style: normal;
@@ -61,6 +68,12 @@
   margin-bottom: 8.3rem;
 }
 
+@media only screen and (max-width: 49rem) {
+  .aboutme-skills-main {
+    flex-direction: column;
+  }
+}
+
 .fun-facts-main {
   margin-bottom: 16.2rem;
   display: flex;
@@ -68,11 +81,23 @@
   justify-content: space-between;
 }
 
+@media only screen and (max-width: 49rem) {
+  .fun-facts-main {
+    margin-bottom: 4.8rem;
+  }
+}
+
 .fun-facts-row {
   display: flex;
   align-items: flex-start;
   gap: 1.6rem;
   margin-bottom: 1.6rem;
+}
+
+@media only screen and (max-width: 49rem) {
+  .fun-facts-row {
+    flex-direction: column;
+  }
 }
 
 .fun-fact {
@@ -93,6 +118,12 @@
   display: flex;
   align-items: center;
   gap: 4.8rem;
+}
+
+@media only screen and (max-width: 49rem) {
+  .fun-facts-right {
+    display: none;
+  }
 }
 
 .funfactsdots {

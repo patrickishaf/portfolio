@@ -30,7 +30,7 @@ export default function Home() {
         <div className="left">
           <h1 className="bio">Pete is a <span>full-stack web developer</span> and <br /><span>site-reliability engineer</span></h1>
           <p className="desc">He builds responsive websites and automates web-app deployments</p>
-          <OutlinedButton text="Contact me !!" />
+          <OutlinedButton text="Contact me !!" className="home-contact-btn" />
         </div>
         <div className="right">
           <img src={maze} alt="full-stack software developer" className="maze" />
