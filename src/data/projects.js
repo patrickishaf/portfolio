@@ -1,22 +1,22 @@
-import proj0 from '../assets/proj0.jpg';
 import proj1 from '../assets/proj1.png';
 import proj2 from '../assets/proj2.png';
 import proj3 from '../assets/proj3.png';
 import proj4 from '../assets/proj4.png';
+import exchange from '../assets/exchange.png';
 
 const projects = [
   {
-    "img": proj0,
-    "name": "ChertNodes",
-    "desc": "Minecraft servers hosting",
+    "img": exchange,
+    "name": "Financial Charts",
+    "desc": "Real-time price-monitoring candlestick charts",
     "skills": [
       "HTML",
       "SCSS",
       "Python",
       "Flask"
     ],
-    "live": "https://roqqu.vercel.app",
-    "cached": true
+    "live": "https://roqqu.vercel.app/exchange",
+    "github": "https://github.com/patrickishaf/roqqu"
   },
   {
     "img": proj1,

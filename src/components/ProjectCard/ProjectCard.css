@@ -5,6 +5,7 @@
 
 .project-card img {
   width: 100%;
+  min-height: 26.4rem;
 }
 
 .project-card .skills {
