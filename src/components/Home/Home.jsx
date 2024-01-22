@@ -17,9 +17,13 @@ import Rect from '../Rect/Rect';
 import SkillBox from '../SkillBox/SkillBox';
 import aboutData from '../../data/about.json';
 import Line from '../Line/Line';
+import { useNavigate } from 'react-router-dom';
+import routenames from '../../navigation/routnames';
 
 export default function Home() {
   const projects = useMemo(() => data, []);
+  const openRoute = useNavigate();
+  
   return (
     <div className="home">
       <section className="hero">
@@ -63,7 +67,7 @@ export default function Home() {
             </h2>
             <Line width="51.1rem" />
           </div>
-          <TextButton text="View all ~~>" />
+          <TextButton text="View all ~~>" onClick={() => openRoute(routenames.projects)}/>
         </div>
         <div className="projects-row">
           {
