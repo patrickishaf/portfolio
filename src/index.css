@@ -34,3 +34,33 @@
 .accent {
   color: var(--accent);
 }
+
+.page-intro {
+  padding-top: 11.4rem;
+  padding-bottom: 6.8rem;
+}
+
+.page-name {
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--text-white);
+  margin-bottom: 1.4rem;
+}
+
+.page-desc {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pg-section-title {
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--text-white);
+  margin-bottom: 4.8rem;
+}

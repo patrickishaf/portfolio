@@ -1,0 +1,13 @@
+.projects-page .pg-section-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.6rem;
+}
+
+.projects-page .projects-grid {
+  margin-bottom: 8.1rem;
+}
+
+.projects-page .small-projects-grid {
+  padding-bottom: 18.7rem;
+}

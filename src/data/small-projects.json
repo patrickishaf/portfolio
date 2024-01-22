@@ -1,0 +1,50 @@
+[
+  {
+    "skills": ["Discord.js", "TS", "JS"],
+    "name": "Bot Boilerplate",
+    "desc": "Start creating scalable discord.js bots with typescript in seconds",
+    "github": "https://github.com/patrickishaf/rage"
+  },
+  {
+    "skills": ["VUE", "CSS", "JS"],
+    "name": "My blog",
+    "desc": "Front-end of my future blog website written in vue",
+    "github": "https://github.com/patrickishaf/rage"
+  },
+  {
+    "skills": ["Figma"],
+    "name": "Chess Pro",
+    "desc": "Figma landing page about service for viewing chess tournaments",
+    "figma": "https://github.com/patrickishaf/rage"
+  },
+  {
+    "skills": ["Figma"],
+    "name": "Crash protect website",
+    "desc": "Figma template for website about anti-raid, anti-crash discord bot",
+    "figma": "https://github.com/patrickishaf/rage"
+  },
+  {
+    "skills": ["HTML", "CSS"],
+    "name": "CSS experiments",
+    "desc": "Collection of my different little projects in css",
+    "live": "https://github.com/patrickishaf/rage"
+  },
+  {
+    "skills": ["Lua", "Neovim"],
+    "name": "Web Dev nvim config",
+    "desc": "Config for neovim perfect for web developer",
+    "github": "https://github.com/patrickishaf/rage"
+  },
+  {
+    "skills": ["Python", "Quart", "HTML"],
+    "name": "Ooku",
+    "desc": "Simple link shortener with auth",
+    "live": "https://github.com/patrickishaf/rage"
+  },
+  {
+    "skills": ["Figma"],
+    "name": "School website",
+    "desc": "Figma template website for my school",
+    "figma": "https://github.com/patrickishaf/rage"
+  }
+]
