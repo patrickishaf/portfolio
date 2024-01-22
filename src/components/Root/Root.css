@@ -1,3 +1,8 @@
+:root {
+  --horizontal-padding: 17.1rem;
+  --total-height: 2984px;
+}
+
 .root {
   width: 100%;
 }
@@ -10,23 +15,81 @@
 .root .left,
 .root .right {
   width: 17.1rem;
+  position: relative;
+}
+
+.root .upper > .left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.root .upper > .left .socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 1.7rem;
+  gap: .8rem;
+}
+
+.root .upper > .left .vert-line {
+  width: .1rem;
+  background-color: var(--text-grey);
+  height: 19.1rem;
+}
+
+.root .upper > .left .sidebar-dots1 {
+  position: absolute;
+  left: -4.5rem;
+  top: 32%;
+  width: 8.4rem;
+  height: 8.4rem;
+}
+
+.root .upper > .left .sidebar-rect-left {
+  position: absolute;
+  top: 71%;
+  left: -7.2rem;
+}
+
+.root .upper > .left .sidebar-dots2 {
+  position: absolute;
+  left: -4.5rem;
+  top: 90%;
+  width: 8.4rem;
+  height: 8.4rem;
 }
 
 .root .middle {
   flex-grow: 1;
 }
 
+.root .upper > .right .sidebar-rect-right {
+  position: absolute;
+  top: 8.5%;
+  right: -7.2rem;
+}
+
+.root .upper > .right .sidebar-dots-right {
+  width: 10.3rem;
+  height: 10.3rem;
+  position: absolute;
+  top: 46%;
+  right: -2.3rem;
+}
+
 .root header {
-  width: 100%;
+  width: calc(100% - var(--horizontal-padding) - var(--horizontal-padding));
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: fixed;
   top: 0;
   left: 0;
-  padding: 3.2rem 17.1rem .8rem;
+  padding: 3.2rem 0 .8rem;
   background-color: var(--bg-color);
   z-index: 3;
+  margin-left: var(--horizontal-padding);
+  margin-right: var(--horizontal-padding);
 }
 
 .root .logo-box {
@@ -122,6 +185,12 @@
   line-height: normal;
   color: var(--text-white);
   margin-bottom: 1.2rem;
+}
+
+.root footer .social-icons {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.2rem;
 }
 
 .root footer .copyright {

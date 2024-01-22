@@ -1,0 +1,105 @@
+.contactme .page-intro {
+  margin-bottom: 4.6rem;
+}
+
+.contactme .contact-main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 11.7rem;
+  margin-bottom: 11.2rem;
+}
+
+.contactme .interests {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  color: var(--text-grey);
+}
+
+.contactme .contact-right {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 1.6rem;
+}
+
+.contactme .support-box {
+  border: 1px solid var(--text-grey);
+  padding: 1.6rem;
+}
+
+.contactme .support-box-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--text-white);
+  text-wrap: nowrap;
+}
+
+.contactme .support-box-text {
+  font-size: 1.6rem;
+  line-height: normal;
+  color: var(--text-grey);
+  margin-top: .8rem;
+}
+
+.contactme .msg-me-box {
+  border: 1px solid var(--text-grey);
+  padding: 1.6rem;
+}
+
+.contactme .msg-me-box-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--text-white);
+  margin-bottom: 1.6rem;
+  text-wrap: nowrap;
+}
+
+.contactme .msg-me-action {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-top: .8rem;
+  transition: all .2s;
+  cursor: pointer;
+}
+
+.contactme .msg-me-action-text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--text-grey);
+  transition: all .2s;
+}
+
+.contactme .msg-me-action-text:hover {
+  color: var(--text-white);
+}
+
+.contactme a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contactme .all-media-main {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.2rem;
+  margin-bottom: 8.3rem;
+}
+
+.contactme .social-tile {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-bottom: 1.6rem;
+}
+
+.contactme .social-tile-text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--text-grey);
+}

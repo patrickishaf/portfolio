@@ -27,7 +27,7 @@ export default function AboutMe() {
         <div className="about-right">
           <div className="about-right-content">
             <figure className="hoodieman">
-              <img src={hoodie2} alt="" />
+              <img src={hoodie2} alt="full-stack software developer" />
             </figure>
             <img src={dots} alt="interesting" className="about-dots" />
             <img src={dots4x5} alt="interesting" className="about-dots-2" />
@@ -99,8 +99,8 @@ export default function AboutMe() {
               </div>
             </div>
             <div className="fun-facts-right">
-              <img src={dots} alt="" className="funfactsdots" />
-              <img src={maze} alt="" className="funfactsmaze" />
+              <img src={dots} alt="full-stack software developer" className="funfactsdots" />
+              <img src={maze} alt="full-stack software developer" className="funfactsmaze" />
             </div>
         </div>
       </section>

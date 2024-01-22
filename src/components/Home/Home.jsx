@@ -33,9 +33,9 @@ export default function Home() {
           <OutlinedButton text="Contact me !!" />
         </div>
         <div className="right">
-          <img src={maze} alt="" className="maze" />
-          <img src={hoodie} alt="" className="hoodie" />
-          <img src={dots} alt="" className="dots" />
+          <img src={maze} alt="full-stack software developer" className="maze" />
+          <img src={hoodie} alt="full-stack software developer" className="hoodie" />
+          <img src={dots} alt="full-stack software developer" className="dots" />
           <div className="current-work">
             <div className="rect" />
             <p className="current-work-text">Currently working on <span>Hanzo</span></p>
@@ -97,12 +97,12 @@ export default function Home() {
         <div className="skills-main">
           <div className="skills-left">
             <div className="top-shapes">
-              <img src={dots} alt="" className="top-dots" />
+              <img src={dots} alt="full-stack software developer" className="top-dots" />
               <Rect size="8.6rem" className="top-rect" />
             </div>
             <div className="bottom-shapes">
-              <img src={maze} alt="" className="bottom-maze" />
-              <img src={dots} alt="" className="bottom-dots" />
+              <img src={maze} alt="full-stack software developer" className="bottom-maze" />
+              <img src={dots} alt="full-stack software developer" className="bottom-dots" />
               <Rect size="5.2rem" className="bottom-rect" />
             </div>
           </div>
@@ -156,7 +156,7 @@ export default function Home() {
           <div className="about-right">
             <div className="about-right-content">
               <figure className="hoodieman">
-                <img src={hoodie2} alt="" />
+                <img src={hoodie2} alt="full-stack software developer" />
               </figure>
               <img src={dots} alt="interesting" className="about-dots" />
               <img src={dots4x5} alt="interesting" className="about-dots-2" />
@@ -178,11 +178,11 @@ export default function Home() {
           <div className="msg-box">
             <p className="msg-box-title">Message me here</p>
             <div className="msg-item">
-              <img src={twitter} alt="" className="leading" />
+              <img src={twitter} alt="full-stack software developer" className="leading" />
               <span>@thecodeninjaeu</span>
             </div>
             <div className="msg-item">
-              <img src={mail} alt="" className="leading" />
+              <img src={mail} alt="full-stack software developer" className="leading" />
               <span>onumdev@gmail.com</span>
             </div>
           </div>
