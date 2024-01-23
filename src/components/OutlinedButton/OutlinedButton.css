@@ -24,3 +24,7 @@
 .outlined-btn.grey:hover {
   background-color: var(--grey-fill);
 }
+
+.outlined-btn .btn-text {
+  color: var(--text-white);
+}

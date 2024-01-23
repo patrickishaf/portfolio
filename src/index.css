@@ -20,6 +20,7 @@
   --grey-fill: rgba(171, 178, 191, 0.20);
 
   background-color: var(--bg-color);
+  color: var(--text-white);
 }
 
 :root[data-theme="alt"] {
