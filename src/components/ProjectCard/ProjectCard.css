@@ -9,7 +9,7 @@
 }
 
 .project-card .skills {
-  /* border-top: 1px solid var(--text-grey); */
+  border-top: 1px solid var(--text-grey);
   border-bottom: 1px solid var(--text-grey);
   padding: 0 .8rem;
   display: flex;

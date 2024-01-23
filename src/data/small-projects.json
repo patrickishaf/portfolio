@@ -1,14 +1,14 @@
 [
   {
-    "skills": ["Discord.js", "TS", "JS"],
-    "name": "Bot Boilerplate",
-    "desc": "Start creating scalable discord.js bots with typescript in seconds",
-    "github": "https://github.com/patrickishaf/rage"
+    "skills": ["Java"],
+    "name": "Data Structures",
+    "desc": "Built some Basic Data Structures in Java because I was bored",
+    "github": "https://github.com/patrickishaf/DataStructures"
   },
   {
-    "skills": ["VUE", "CSS", "JS"],
-    "name": "My blog",
-    "desc": "Front-end of my future blog website written in vue",
+    "skills": ["Go"],
+    "name": "Rage",
+    "desc": "Data validation library in Go that's based on Joi from Javascript",
     "github": "https://github.com/patrickishaf/rage"
   },
   {

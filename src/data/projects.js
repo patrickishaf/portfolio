@@ -1,39 +1,37 @@
-import proj1 from '../assets/proj1.png';
 import proj2 from '../assets/proj2.png';
 import proj3 from '../assets/proj3.png';
-import proj4 from '../assets/proj4.png';
 import exchange from '../assets/exchange.png';
+import roqquWallet from '../assets/roq-wallet.png';
+import portfolio from '../assets/portfolio.png';
 
 const projects = [
+  {
+    "img": roqquWallet,
+    "name": "Roqqu Wallet",
+    "desc": "Web Wallet app for buying and selling cryptocurrencies",
+    "skills": [
+      "React.js",
+      "E2E Testing",
+      "Browser Encryption",
+      "Redux",
+      "Styled Components",
+      "Suspense",
+      "Performance"
+    ],
+    "live": "https://app.roqqu.com",
+  },
   {
     "img": exchange,
     "name": "Financial Charts",
     "desc": "Real-time price-monitoring candlestick charts",
     "skills": [
-      "HTML",
-      "SCSS",
-      "Python",
-      "Flask"
+      "React",
+      "Lightweight charts",
+      "Javascript",
+      "Websocket"
     ],
     "live": "https://roqqu.vercel.app/exchange",
     "github": "https://github.com/patrickishaf/roqqu"
-  },
-  {
-    "img": proj1,
-    "name": "ProtectX",
-    "desc": "Discord anti-crash bot",
-    "skills": [
-      "React",
-      "Express",
-      "Discord.js",
-      "Node.js",
-      "HTML",
-      "SCSS",
-      "Python",
-      "Flask"
-    ],
-    "live": "https://roqqu.vercel.app",
-    "cached": false
   },
   {
     "img": proj2,
@@ -59,7 +57,7 @@ const projects = [
     "cached": false
   },
   {
-    "img": proj4,
+    "img": portfolio,
     "name": "Portfolio",
     "desc": "You're using it right now",
     "skills": [
