@@ -21,8 +21,13 @@ import { useNavigate } from 'react-router-dom';
 import routenames from '../../navigation/routnames';
 
 export default function Home() {
+  const contactText = "If you want to contact me, it's very easy! Just click on any social media icon anywhere on this site. I'll just add that I respond to messages on LinkedIn a bit faster so you might wanna use that option😉";
   const projects = useMemo(() => data, []);
   const openRoute = useNavigate();
+
+  function goToContact() {
+    openRoute(routenames.contact);
+  }
   
   return (
     <div className="home">
@@ -30,7 +35,7 @@ export default function Home() {
         <div className="left">
           <h1 className="bio">Pete is a <span>full-stack web developer</span> and <br /><span>site-reliability engineer</span></h1>
           <p className="desc">He builds responsive websites and automates web-app deployments</p>
-          <OutlinedButton text="Contact me !!" className="home-contact-btn" />
+          <OutlinedButton text="Contact me !!" className="home-contact-btn" onClick={goToContact} />
         </div>
         <div className="right">
           <img src={maze} alt="full-stack software developer" className="maze" />
@@ -109,8 +114,18 @@ export default function Home() {
           <div className="skills-right">
             <div className="col">
               <SkillBox
+                type="Tools"
+                items={["AWS", "GCP", "Terraform", "Azure", "Linux", "Gitlab", "Bitbucket"]}
+              />
+            </div>
+            <div className="col">
+              <SkillBox
                 type="Languages"
-                items={["Typescript", "Lua", "Javascript", "Python"]}
+                items={["Typescript", "Python", "Javascript", "Go", "Java", "Bash"]}
+              />
+              <SkillBox
+                type="Frameworks"
+                items={["React", "Nest.js", "Express", "Spring boot", "Flask", "Django", "Gin"]}
               />
             </div>
             <div className="col">
@@ -120,17 +135,7 @@ export default function Home() {
               />
               <SkillBox
                 type="Other"
-                items={["HTML", "CSS", "EJS", "SCSS", "REST", "Jinja"]}
-              />
-            </div>
-            <div className="col">
-              <SkillBox
-                type="Tools"
-                items={["VSCode", "Neovim", "Linux", "Figma", "XFCE", "Arch", "Git", "Font awesome"]}
-              />
-              <SkillBox
-                type="Frameworks"
-                items={["React", "Vue", "Disnake", "Discord.js", "Flask", "Express.js"]}
+                items={["CI/CD", "Integration testing", "Docker", "REST API Design", "GraphQL"]}
               />
             </div>
           </div>
@@ -174,16 +179,20 @@ export default function Home() {
           <Line width="32.6rem" />
         </div>
         <div className="contacts-main">
-          <p className="contacts-txt">I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</p>
+          <p className="contacts-txt">{contactText}</p>
           <div className="msg-box">
             <p className="msg-box-title">Message me here</p>
             <div className="msg-item">
               <img src={twitter} alt="full-stack software developer" className="leading" />
-              <span>@thecodeninjaeu</span>
+              <span>
+                <a href="https://x.com/thecodeninjaeu" target="_blank" rel="noreferrer">@thecodeninjaeu</a>
+              </span>
             </div>
             <div className="msg-item">
               <img src={mail} alt="full-stack software developer" className="leading" />
-              <span>onumdev@gmail.com</span>
+              <span>
+                <a href="mailto:onumdev@gmail.com">onumdev@gmail.com</a>
+              </span>
             </div>
           </div>
         </div>

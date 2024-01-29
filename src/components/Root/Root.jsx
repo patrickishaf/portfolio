@@ -3,6 +3,7 @@ import logo from '../../assets/logo.svg';
 import github from '../../assets/github.svg';
 import linkedin from '../../assets/linkedin.svg';
 import twitter from '../../assets/twitter.svg';
+import email from '../../assets/email.svg';
 import dots from '../../assets/dots5x5.svg';
 import closeIcon from '../../assets/close.svg';
 import menuIcon from '../../assets/menu.svg';
@@ -32,11 +33,14 @@ export default function Root() {
             <a href="http://linkedin.com/in/pete-onum" target="_blank" rel="noopener noreferrer">
               <img src={linkedin} alt="full-stack software developer" className="soc-ic" />
             </a>
-            <a href="http://github.com/patrickishaf" target="_blank" rel="noopener noreferrer">
-              <img src={github} alt="full-stack software developer" className="soc-ic" />
+            <a href="mailto:onumdev@gmail.com" target="_blank" rel="noopener noreferrer">
+              <img src={email} alt="full-stack software developer" className="soc-ic" />
             </a>
             <a href="http://twitter.com/thecodeninjaeu" target="_blank" rel="noopener noreferrer">
               <img src={twitter} alt="full-stack software developer" className="soc-ic" />
+            </a>
+            <a href="http://github.com/patrickishaf" target="_blank" rel="noopener noreferrer">
+              <img src={github} alt="full-stack software developer" className="soc-ic" />
             </a>
           </div>
           <img src={dots} alt="" className="sidebar-dots1" />

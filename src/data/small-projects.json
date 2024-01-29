@@ -12,22 +12,22 @@
     "github": "https://github.com/patrickishaf/rage"
   },
   {
-    "skills": ["Figma"],
-    "name": "Chess Pro",
-    "desc": "Figma landing page about service for viewing chess tournaments",
-    "figma": "https://github.com/patrickishaf/rage"
+    "skills": ["React", "Typescript"],
+    "name": "Quick Kitchen",
+    "desc": "Restaurant Website for ordering food from a growing business",
+    "github": "https://github.com/patrickishaf/rage"
   },
   {
-    "skills": ["Figma"],
-    "name": "Crash protect website",
-    "desc": "Figma template for website about anti-raid, anti-crash discord bot",
-    "figma": "https://github.com/patrickishaf/rage"
+    "skills": ["React", "Typescript", "Firebase"],
+    "name": "Matrix Blog",
+    "desc": "A minimalistic blogging site still under construction",
+    "live": "https://agentsmith.netlify.app"
   },
   {
-    "skills": ["HTML", "CSS"],
-    "name": "CSS experiments",
-    "desc": "Collection of my different little projects in css",
-    "live": "https://github.com/patrickishaf/rage"
+    "skills": ["Typescript", "NodeJS", "Express", "Firebase"],
+    "name": "Blog Server",
+    "desc": "The backend for the agentsmith blog",
+    "github": "https://github.com/patrickishaf/blog-server"
   },
   {
     "skills": ["Lua", "Neovim"],

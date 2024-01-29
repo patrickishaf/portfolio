@@ -525,3 +525,8 @@
   line-height: normal;
   color: var(--text-grey);
 }
+
+.home .msg-item span:hover {
+  color: var(--text-white);
+  font-weight: 500;
+}

@@ -41,7 +41,8 @@
 
 .contactme .support-box {
   border: 1px solid var(--text-grey);
-  padding: 1.6rem;
+  padding: .8rem 1.6rem;
+  width: 20rem;
 }
 
 .contactme .support-box-title {
@@ -124,4 +125,9 @@
   font-size: 1.6rem;
   font-weight: 400;
   color: var(--text-grey);
+}
+
+.contactme .social-tile-text:hover {
+  font-weight: 500;
+  color: var(--text-white);
 }

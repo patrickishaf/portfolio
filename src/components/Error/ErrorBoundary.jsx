@@ -3,8 +3,8 @@ import { Component } from "react";
 import ErrorComponent from "./ErrorComponent";
 
 export default class ErrorBoundary extends Component {
-  constructor({ children }) {
-    super({ children })
+  constructor(props) {
+    super(props)
   }
   static getDerivedStateFromError (error) {
     return ({ hasError: true, error })

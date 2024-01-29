@@ -1,8 +1,8 @@
-import proj2 from '../assets/proj2.png';
-import proj3 from '../assets/proj3.png';
-import exchange from '../assets/exchange.png';
-import roqquWallet from '../assets/roq-wallet.png';
-import portfolio from '../assets/portfolio.png';
+import proj3 from '../assets/projects/proj3.png';
+import exchange from '../assets/projects/exchange.png';
+import roqquWallet from '../assets/projects/roq-wallet.png';
+import portfolio from '../assets/projects/portfolio.png';
+import hanzo from '../assets/projects/hanzo.png';
 
 const projects = [
   {
@@ -12,13 +12,26 @@ const projects = [
     "skills": [
       "React.js",
       "E2E Testing",
-      "Browser Encryption",
+      "Browser encryption",
       "Redux",
-      "Styled Components",
-      "Suspense",
-      "Performance"
     ],
     "live": "https://app.roqqu.com",
+  },
+  {
+    "img": hanzo,
+    "name": "Hanzo",
+    "desc": "Create beautiful design mockups for presentations",
+    "skills": [
+      "React.js",
+      "Typescript",
+      "Redux Toolkit",
+      "Vitest",
+      "Express",
+      "Node.js",
+      "CSS",
+      "HTML"
+    ],
+    "live": "https://hanzo-app.vercel.app"
   },
   {
     "img": exchange,
@@ -32,17 +45,6 @@ const projects = [
     ],
     "live": "https://roqqu.vercel.app/exchange",
     "github": "https://github.com/patrickishaf/roqqu"
-  },
-  {
-    "img": proj2,
-    "name": "Kahoot Answers Viewer",
-    "desc": "Get answers to your kahoot quiz",
-    "skills": [
-      "CSS",
-      "Express",
-      "Node.js"
-    ],
-    "cached": true
   },
   {
     "img": proj3,
@@ -61,9 +63,9 @@ const projects = [
     "name": "Portfolio",
     "desc": "You're using it right now",
     "skills": [
-      "Vue",
-      "TS",
-      "LESS"
+      "React",
+      "Typescript",
+      "CSS"
     ],
     "github": "https://roqqu.vercel.app",
     "cached": false
