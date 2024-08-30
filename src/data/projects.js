@@ -1,4 +1,3 @@
-import proj3 from '../assets/projects/proj3.png';
 import exchange from '../assets/projects/exchange.png';
 import roqquWallet from '../assets/projects/roq-wallet.png';
 import portfolio from '../assets/projects/portfolio.png';
@@ -28,12 +27,9 @@ const projects = [
     "skills": [
       "React.js",
       "Typescript",
-      "Redux Toolkit",
-      "Vitest",
+      "Redux",
       "Express",
       "Node.js",
-      "CSS",
-      "HTML"
     ],
     "live": "https://hanzo-app.vercel.app"
   },

@@ -115,13 +115,13 @@ export default function Home() {
             <div className="col">
               <SkillBox
                 type="Tools"
-                items={["AWS", "GCP", "Terraform", "Azure", "Linux", "Gitlab", "Bitbucket"]}
+                items={["Git", "AWS", "GCP", "Docker", "Kubernetes", "Cloud Formation", "Azure", "Linux", "Gitlab", "Bitbucket"]}
               />
             </div>
             <div className="col">
               <SkillBox
                 type="Languages"
-                items={["Typescript", "Python", "Javascript", "Go", "Java", "Bash"]}
+                items={["Typescript", "Javascript", "Go", "Python", "Bash"]}
               />
               <SkillBox
                 type="Frameworks"
@@ -131,11 +131,11 @@ export default function Home() {
             <div className="col">
               <SkillBox
                 type="Databases"
-                items={["SQLite", "PostreSQL", "MongoDB", "Firebase"]}
+                items={["MySQL", "PostgreSQL", "SQLite", "MongoDB", "Firebase"]}
               />
               <SkillBox
                 type="Other"
-                items={["CI/CD", "Integration testing", "Docker", "REST API Design", "GraphQL"]}
+                items={["Microservices", "gRPC", "Message-Driven Architecture", "REST API Design", "GraphQL"]}
               />
             </div>
           </div>

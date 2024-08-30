@@ -16,7 +16,7 @@ export default function Projects() {
       </section>
       <section className="page-section">
         <h1 className="pg-section-title">
-          <span className="accent">#</span>complete-apps
+          <span className="accent">#</span>apps
         </h1>
         <main className="pg-section-main projects-grid">
           {
