@@ -12,6 +12,7 @@
 .project-card img {
   width: 100%;
   min-height: 26.4rem;
+  object-fit: cover;
 }
 
 .project-card .skills {

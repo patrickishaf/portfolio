@@ -3,6 +3,8 @@ import exchange from '../assets/projects/exchange.png';
 import roqquWallet from '../assets/projects/roq-wallet.png';
 import portfolio from '../assets/projects/portfolio.png';
 import hanzo from '../assets/projects/hanzo.png';
+import quickkitchen from '../assets/projects/quickkitchen.png';
+import zentrader from '../assets/projects/zentrader.png';
 
 const projects = [
   {
@@ -11,9 +13,11 @@ const projects = [
     "desc": "Web Wallet app for buying and selling cryptocurrencies",
     "skills": [
       "React.js",
-      "E2E Testing",
-      "Browser encryption",
-      "Redux",
+      "NodeJS",
+      "Express",
+      "MySQL",
+      "gRPC",
+      "AWS"
     ],
     "live": "https://app.roqqu.com",
   },
@@ -34,6 +38,18 @@ const projects = [
     "live": "https://hanzo-app.vercel.app"
   },
   {
+    "img": zentrader,
+    "name": "ZenTrader Bot",
+    "desc": "Crypto Trading Telegram Bot",
+    "skills": [
+      "Python",
+      "SQLite",
+      "AWS",
+    ],
+    "live": "https://t.me/bybitTrBot",
+    "cached": false
+  },
+  {
     "img": exchange,
     "name": "Financial Charts",
     "desc": "Real-time price-monitoring candlestick charts",
@@ -47,15 +63,19 @@ const projects = [
     "github": "https://github.com/patrickishaf/roqqu"
   },
   {
-    "img": proj3,
-    "name": "Kotik Bot",
-    "desc": "Multi-functional Discord Bot",
+    "img": quickkitchen,
+    "name": "QuickKitchen",
+    "desc": "(Ecommerce) Restaurant website for ordering food from a growing business",
     "skills": [
-      "HTML",
+      "React",
+      "Typescript",
+      "NodeJS",
+      "NestJS",
       "CSS",
-      "JS"
+      "SQLite",
+      "AWS"
     ],
-    "live": "https://roqqu.vercel.app",
+    "github": "https://github.com/patrickishaf/qc-client",
     "cached": false
   },
   {
@@ -69,7 +89,7 @@ const projects = [
     ],
     "github": "https://roqqu.vercel.app",
     "cached": false
-  }
+  },
 ]
 
 export default projects;
