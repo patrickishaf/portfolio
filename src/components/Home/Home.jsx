@@ -43,7 +43,7 @@ export default function Home() {
           <img src={dots} alt="full-stack software developer" className="dots" />
           <div className="current-work">
             <div className="rect" />
-            <p className="current-work-text">Currently working on <span>Hanzo</span></p>
+            <p className="current-work-text">Currently working on <span><a target="_blank" rel="noreferrer" href="https://energy-iq.hng14.com/">EnergyIQ</a></span></p>
           </div>
         </div>
       </section>
@@ -121,11 +121,11 @@ export default function Home() {
             <div className="col">
               <SkillBox
                 type="Languages"
-                items={["Typescript", "Javascript", "Go", "Python", "Bash"]}
+                items={["Go", "Java", "Typescript", "Python", "Bash"]}
               />
               <SkillBox
                 type="Frameworks"
-                items={["React", "Nest.js", "Express", "Spring boot", "Flask", "Django", "Gin"]}
+                items={["Spring Boot", "Gin", "React", "Nest.js", "Express", "Flask", "Django"]}
               />
             </div>
             <div className="col">

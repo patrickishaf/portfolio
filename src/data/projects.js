@@ -7,6 +7,19 @@ import zentrader from '../assets/projects/zentrader.png';
 
 const projects = [
   {
+    "img": "",
+    "name": "Genderize",
+    "desc": "A system that classifies people into gender groups based on their names",
+    "skills": [
+      "NodeJS",
+      "Express",
+      "Railway",
+      "SQLite"
+    ],
+    "github": "https://github.com/patrickishaf/genderize",
+    "cached": false,
+  },
+  {
     "img": roqquWallet,
     "name": "Roqqu Wallet",
     "desc": "Web Wallet app for buying and selling cryptocurrencies",
@@ -18,7 +31,7 @@ const projects = [
       "gRPC",
       "AWS"
     ],
-    "live": "https://app.roqqu.com",
+    "live": "https://roqqu.io",
   },
   {
     "img": hanzo,
