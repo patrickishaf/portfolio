@@ -33,7 +33,7 @@ export default function Home() {
     <div className="home">
       <section className="hero">
         <div className="left">
-          <h1 className="bio">Pete is a <span>full-stack web developer</span> and <br /><span>site-reliability engineer</span></h1>
+          <h1 className="bio">Dedli is a <span>software engineer</span> and <br /><span>site-reliability engineer</span></h1>
           <p className="desc">He builds responsive websites and automates web-app deployments</p>
           <OutlinedButton text="Contact me !!" className="home-contact-btn" onClick={goToContact} />
         </div>
