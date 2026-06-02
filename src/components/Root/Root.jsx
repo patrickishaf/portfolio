@@ -53,7 +53,7 @@ export default function Root() {
               <figure className="logo-wrap">
                 <img src={logo} alt="" className="logo" />
               </figure>
-              <h6 className="name">Pete</h6>
+              <h6 className="name">Dedli</h6>
             </div>
             <ul className="links">
               <li className="link">
