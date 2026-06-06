@@ -33,7 +33,7 @@ export default function Home() {
     <div className="home">
       <section className="hero">
         <div className="left">
-          <h1 className="bio">Dedli is a <span>software engineer</span> and <br /><span>site-reliability engineer</span></h1>
+          <h1 className="bio">Pete is a <span>software engineer</span> and <br /><span>site-reliability engineer</span></h1>
           <p className="desc">He builds responsive websites and automates web-app deployments</p>
           <OutlinedButton text="Contact me !!" className="home-contact-btn" onClick={goToContact} />
         </div>
@@ -43,7 +43,7 @@ export default function Home() {
           <img src={dots} alt="full-stack software developer" className="dots" />
           <div className="current-work">
             <div className="rect" />
-            <p className="current-work-text">Currently working on <span><a target="_blank" rel="noreferrer" href="https://energy-iq.hng14.com/">EnergyIQ</a></span></p>
+            <p className="current-work-text">Currently working on <span><a target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.roqqu.app&hl=en">Roqqu</a></span></p>
           </div>
         </div>
       </section>
@@ -121,7 +121,7 @@ export default function Home() {
             <div className="col">
               <SkillBox
                 type="Languages"
-                items={["Go", "Java", "Typescript", "Python", "Bash"]}
+                items={["Go", "Java", "Typescript", "Python", "Bash", "Rust"]}
               />
               <SkillBox
                 type="Frameworks"

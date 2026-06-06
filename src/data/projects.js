@@ -4,33 +4,20 @@ import portfolio from '../assets/projects/portfolio.png';
 import hanzo from '../assets/projects/hanzo.png';
 import quickkitchen from '../assets/projects/quickkitchen.png';
 import zentrader from '../assets/projects/zentrader.png';
-import project from '../assets/projects/project.svg';
 
 const projects = [
   {
-    "img": project,
-    "name": "Genderize",
-    "desc": "A system that classifies people into gender groups based on their names",
+    "img": roqquWallet,
+    "name": "Roqqu App",
+    "desc": "A decentralized crypto exchange and fintech",
     "skills": [
       "NodeJS",
-      "Express",
-      "Railway",
-      "SQLite"
+      "Typescript",
+      "Golang",
+      "MySQL",
+      "Github Actions",
     ],
-    "github": "https://github.com/patrickishaf/genderize",
-    "cached": false,
-  },
-  {
-    "img": project,
-    "name": "Insighta Labs",
-    "desc": "a demographic intelligence platform that stores structured profile data (e.g., age, gender, country) and allows users to query and analyze this data",
-    "skills": [
-      "NodeJS",
-      "Express",
-      "Railway",
-      "SQLite"
-    ],
-    "github": "https://github.com/patrickishaf/classifier"
+    "live": "https://play.google.com/store/apps/details?id=com.roqqu.app&hl=en"
   },
   {
     "img": roqquWallet,
